@@ -4,10 +4,15 @@ import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
+import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.tiendaapp.adapter.ProductAdapter
 import com.example.tiendaapp.data.Product
 import com.example.tiendaapp.databinding.ActivityMainBinding
+import com.example.tiendaapp.network.ApiClient
+import com.example.tiendaapp.network.CompraRequest
+import com.example.tiendaapp.network.ItemCompra
+import kotlinx.coroutines.launch
 
 class MainActivity : AppCompatActivity() {
 
@@ -26,17 +31,35 @@ class MainActivity : AppCompatActivity() {
         b.rvProducts.layoutManager = LinearLayoutManager(this)
         b.rvProducts.adapter = adapter
 
-        loadFakeProducts()
+        loadFromApi()
     }
 
-    private fun loadFakeProducts() {
-        val fake = listOf(
-            Product(1, "Teclado mecánico", "Periféricos", 899.99, 10, "ACTIVE"),
-            Product(2, "SSD 1TB", "Almacenamiento", 1299.50, 4, "ACTIVE"),
-            Product(3, "GPU RTX", "Componentes", 9999.99, 0, "ACTIVE"),
-            Product(4, "Mouse gamer", "Periféricos", 499.00, 7, "INACTIVE")
-        )
-        adapter.update(fake)
+    private fun loadFromApi() {
+        lifecycleScope.launch {
+            try {
+                val apiProducts = ApiClient.service.getProductos()
+
+                val mapped = apiProducts.map { ap ->
+                    Product(
+                        id = ap.idProducto,
+                        name = ap.nombre,
+                        category = "${ap.idCategoria ?: 0}",
+                        price = ap.precio,
+                        stock = ap.stock,
+                        status = if ((ap.idEstado ?: 1) == 1) "ACTIVE" else "INACTIVE"
+                    )
+                }
+
+                adapter.update(mapped)
+
+            } catch (e: Exception) {
+                Toast.makeText(
+                    this@MainActivity,
+                    "Error API: ${e.message}",
+                    Toast.LENGTH_LONG
+                ).show()
+            }
+        }
     }
 
     private fun showBuyDialog(product: Product) {
@@ -46,7 +69,34 @@ class MainActivity : AppCompatActivity() {
             .setTitle("Comprar ${product.name}")
             .setItems(quantities) { _, which ->
                 val qty = quantities[which].toInt()
-                Toast.makeText(this, "Compra simulada: ${product.name} x$qty", Toast.LENGTH_SHORT).show()
+
+                lifecycleScope.launch {
+                    try {
+                        val resp = ApiClient.service.comprar(
+                            CompraRequest(
+                                idUsuario = null,
+                                items = listOf(
+                                    ItemCompra(product.id, qty)
+                                )
+                            )
+                        )
+
+                        Toast.makeText(
+                            this@MainActivity,
+                            "Compra OK #${resp.idVenta} Total: ${resp.total}",
+                            Toast.LENGTH_LONG
+                        ).show()
+
+                        loadFromApi()
+
+                    } catch (e: Exception) {
+                        Toast.makeText(
+                            this@MainActivity,
+                            "Compra error: ${e.message}",
+                            Toast.LENGTH_LONG
+                        ).show()
+                    }
+                }
             }
             .setNegativeButton("Cancelar", null)
             .show()

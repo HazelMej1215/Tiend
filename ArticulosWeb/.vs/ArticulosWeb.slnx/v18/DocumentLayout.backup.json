@@ -1,0 +1,223 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\david\\Downloads\\ArticulosWeb\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D7404636-D223-D6EE-2AFC-6BD54D17EDEB}|ArticulosWeb\\ArticulosWeb.csproj|c:\\users\\david\\downloads\\articulosweb\\articulosweb\\controllers\\articuloscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7404636-D223-D6EE-2AFC-6BD54D17EDEB}|ArticulosWeb\\ArticulosWeb.csproj|solutionrelative:articulosweb\\controllers\\articuloscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7404636-D223-D6EE-2AFC-6BD54D17EDEB}|ArticulosWeb\\ArticulosWeb.csproj|c:\\users\\david\\downloads\\articulosweb\\articulosweb\\views\\articulos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D7404636-D223-D6EE-2AFC-6BD54D17EDEB}|ArticulosWeb\\ArticulosWeb.csproj|solutionrelative:articulosweb\\views\\articulos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7404636-D223-D6EE-2AFC-6BD54D17EDEB}|ArticulosWeb\\ArticulosWeb.csproj|c:\\users\\david\\downloads\\articulosweb\\articulosweb\\services\\artiuclosapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7404636-D223-D6EE-2AFC-6BD54D17EDEB}|ArticulosWeb\\ArticulosWeb.csproj|solutionrelative:articulosweb\\services\\artiuclosapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7404636-D223-D6EE-2AFC-6BD54D17EDEB}|ArticulosWeb\\ArticulosWeb.csproj|c:\\users\\david\\downloads\\articulosweb\\articulosweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7404636-D223-D6EE-2AFC-6BD54D17EDEB}|ArticulosWeb\\ArticulosWeb.csproj|solutionrelative:articulosweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7404636-D223-D6EE-2AFC-6BD54D17EDEB}|ArticulosWeb\\ArticulosWeb.csproj|c:\\users\\david\\downloads\\articulosweb\\articulosweb\\models\\articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7404636-D223-D6EE-2AFC-6BD54D17EDEB}|ArticulosWeb\\ArticulosWeb.csproj|solutionrelative:articulosweb\\models\\articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7404636-D223-D6EE-2AFC-6BD54D17EDEB}|ArticulosWeb\\ArticulosWeb.csproj|c:\\users\\david\\downloads\\articulosweb\\articulosweb\\views\\articulos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D7404636-D223-D6EE-2AFC-6BD54D17EDEB}|ArticulosWeb\\ArticulosWeb.csproj|solutionrelative:articulosweb\\views\\articulos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7404636-D223-D6EE-2AFC-6BD54D17EDEB}|ArticulosWeb\\ArticulosWeb.csproj|c:\\users\\david\\downloads\\articulosweb\\articulosweb\\views\\articulos\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7404636-D223-D6EE-2AFC-6BD54D17EDEB}|ArticulosWeb\\ArticulosWeb.csproj|solutionrelative:articulosweb\\views\\articulos\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7404636-D223-D6EE-2AFC-6BD54D17EDEB}|ArticulosWeb\\ArticulosWeb.csproj|c:\\users\\david\\downloads\\articulosweb\\articulosweb\\views\\articulos\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7404636-D223-D6EE-2AFC-6BD54D17EDEB}|ArticulosWeb\\ArticulosWeb.csproj|solutionrelative:articulosweb\\views\\articulos\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7404636-D223-D6EE-2AFC-6BD54D17EDEB}|ArticulosWeb\\ArticulosWeb.csproj|c:\\users\\david\\downloads\\articulosweb\\articulosweb\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D7404636-D223-D6EE-2AFC-6BD54D17EDEB}|ArticulosWeb\\ArticulosWeb.csproj|solutionrelative:articulosweb\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7404636-D223-D6EE-2AFC-6BD54D17EDEB}|ArticulosWeb\\ArticulosWeb.csproj|c:\\users\\david\\downloads\\articulosweb\\articulosweb\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D7404636-D223-D6EE-2AFC-6BD54D17EDEB}|ArticulosWeb\\ArticulosWeb.csproj|solutionrelative:articulosweb\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7404636-D223-D6EE-2AFC-6BD54D17EDEB}|ArticulosWeb\\ArticulosWeb.csproj|c:\\users\\david\\downloads\\articulosweb\\articulosweb\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7404636-D223-D6EE-2AFC-6BD54D17EDEB}|ArticulosWeb\\ArticulosWeb.csproj|solutionrelative:articulosweb\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7404636-D223-D6EE-2AFC-6BD54D17EDEB}|ArticulosWeb\\ArticulosWeb.csproj|c:\\users\\david\\downloads\\articulosweb\\articulosweb\\articulosweb.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D7404636-D223-D6EE-2AFC-6BD54D17EDEB}|ArticulosWeb\\ArticulosWeb.csproj|solutionrelative:articulosweb\\articulosweb.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\david\\Downloads\\ArticulosWeb\\ArticulosWeb\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "ArticulosWeb\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\david\\Downloads\\ArticulosWeb\\ArticulosWeb\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "ArticulosWeb\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-15T16:12:03.009Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\david\\Downloads\\ArticulosWeb\\ArticulosWeb\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "ArticulosWeb\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\david\\Downloads\\ArticulosWeb\\ArticulosWeb\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "ArticulosWeb\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-15T16:12:02.272Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\david\\Downloads\\ArticulosWeb\\ArticulosWeb\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "ArticulosWeb\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\david\\Downloads\\ArticulosWeb\\ArticulosWeb\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "ArticulosWeb\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-15T16:11:53.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\david\\Downloads\\ArticulosWeb\\ArticulosWeb\\Views\\Articulos\\Create.cshtml",
+              "RelativeDocumentMoniker": "ArticulosWeb\\Views\\Articulos\\Create.cshtml",
+              "ToolTip": "C:\\Users\\david\\Downloads\\ArticulosWeb\\ArticulosWeb\\Views\\Articulos\\Create.cshtml",
+              "RelativeToolTip": "ArticulosWeb\\Views\\Articulos\\Create.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-15T16:08:54.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\david\\Downloads\\ArticulosWeb\\ArticulosWeb\\Views\\Articulos\\Index.cshtml",
+              "RelativeDocumentMoniker": "ArticulosWeb\\Views\\Articulos\\Index.cshtml",
+              "ToolTip": "C:\\Users\\david\\Downloads\\ArticulosWeb\\ArticulosWeb\\Views\\Articulos\\Index.cshtml",
+              "RelativeToolTip": "ArticulosWeb\\Views\\Articulos\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-15T16:08:29.427Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ArticulosController.cs",
+              "DocumentMoniker": "C:\\Users\\david\\Downloads\\ArticulosWeb\\ArticulosWeb\\Controllers\\ArticulosController.cs",
+              "RelativeDocumentMoniker": "ArticulosWeb\\Controllers\\ArticulosController.cs",
+              "ToolTip": "C:\\Users\\david\\Downloads\\ArticulosWeb\\ArticulosWeb\\Controllers\\ArticulosController.cs",
+              "RelativeToolTip": "ArticulosWeb\\Controllers\\ArticulosController.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA1wCYAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-15T16:07:46.759Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\david\\Downloads\\ArticulosWeb\\ArticulosWeb\\Program.cs",
+              "RelativeDocumentMoniker": "ArticulosWeb\\Program.cs",
+              "ToolTip": "C:\\Users\\david\\Downloads\\ArticulosWeb\\ArticulosWeb\\Program.cs",
+              "RelativeToolTip": "ArticulosWeb\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-15T16:06:23.589Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ArtiuclosApi.cs",
+              "DocumentMoniker": "C:\\Users\\david\\Downloads\\ArticulosWeb\\ArticulosWeb\\Services\\ArtiuclosApi.cs",
+              "RelativeDocumentMoniker": "ArticulosWeb\\Services\\ArtiuclosApi.cs",
+              "ToolTip": "C:\\Users\\david\\Downloads\\ArticulosWeb\\ArticulosWeb\\Services\\ArtiuclosApi.cs",
+              "RelativeToolTip": "ArticulosWeb\\Services\\ArtiuclosApi.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowCcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-15T16:06:10.391Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Articulo.cs",
+              "DocumentMoniker": "C:\\Users\\david\\Downloads\\ArticulosWeb\\ArticulosWeb\\Models\\Articulo.cs",
+              "RelativeDocumentMoniker": "ArticulosWeb\\Models\\Articulo.cs",
+              "ToolTip": "C:\\Users\\david\\Downloads\\ArticulosWeb\\ArticulosWeb\\Models\\Articulo.cs",
+              "RelativeToolTip": "ArticulosWeb\\Models\\Articulo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-15T16:05:21.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Create.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\david\\Downloads\\ArticulosWeb\\ArticulosWeb\\Views\\Articulos\\Create.cshtml.cs",
+              "RelativeDocumentMoniker": "ArticulosWeb\\Views\\Articulos\\Create.cshtml.cs",
+              "ToolTip": "C:\\Users\\david\\Downloads\\ArticulosWeb\\ArticulosWeb\\Views\\Articulos\\Create.cshtml.cs",
+              "RelativeToolTip": "ArticulosWeb\\Views\\Articulos\\Create.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-15T16:12:07.18Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\david\\Downloads\\ArticulosWeb\\ArticulosWeb\\Views\\Articulos\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "ArticulosWeb\\Views\\Articulos\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\david\\Downloads\\ArticulosWeb\\ArticulosWeb\\Views\\Articulos\\Index.cshtml.cs",
+              "RelativeToolTip": "ArticulosWeb\\Views\\Articulos\\Index.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-15T16:12:04.372Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ArticulosWeb.csproj",
+              "DocumentMoniker": "C:\\Users\\david\\Downloads\\ArticulosWeb\\ArticulosWeb\\ArticulosWeb.csproj",
+              "RelativeDocumentMoniker": "ArticulosWeb\\ArticulosWeb.csproj",
+              "ToolTip": "C:\\Users\\david\\Downloads\\ArticulosWeb\\ArticulosWeb\\ArticulosWeb.csproj",
+              "RelativeToolTip": "ArticulosWeb\\ArticulosWeb.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-02-15T16:05:32.929Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

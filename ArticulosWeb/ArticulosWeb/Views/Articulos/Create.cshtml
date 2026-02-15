@@ -1,0 +1,48 @@
+﻿@model ArticulosWeb.Models.Articulo
+<h2>Registrar producto</h2>
+@if (ViewBag.Error != null)
+{
+    <div class="alert alert-danger" style="white-space: pre-wrap;">@ViewBag.Error</div>
+}
+
+<form asp-action="Create" method="post">
+    <div class="mb-3">
+        <label class="form-label">Nombre</label>
+        <input asp-for="Nombre" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Descripción</label>
+        <input asp-for="Descripcion" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Precio</label>
+        <input asp-for="Precio" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Stock</label>
+        <input asp-for="Stock" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">SKU</label>
+        <input asp-for="Sku" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">ID Categoría</label>
+        <input asp-for="IdCategoria" class="form-control" value="1" />
+
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Estado</label>
+        <input asp-for="IdEstado" class="form-control" value="1" />
+
+    </div>
+
+    <button class="btn btn-success" type="submit">Guardar</button>
+    <a class="btn btn-secondary" asp-action="Index">Volver</a>
+</form>

@@ -1,0 +1,33 @@
+﻿@model List<ArticulosWeb.Models.Articulo>
+
+<h2>Artículos</h2>
+
+<a class="btn btn-primary" asp-action="Create">Registrar artículo</a>
+@if (TempData["Msg"] != null)
+{
+    <div class="alert alert-success">@TempData["Msg"]</div>
+}
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Nombre</th>
+            <th>Descripción</th>
+            <th>Precio</th>
+            <th>Stock</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var a in Model)
+        {
+            <tr>
+                <td>@a.Id</td>
+                <td>@a.Nombre</td>
+                <td>@a.Descripcion</td>
+                <td>@a.Precio</td>
+                <td>@a.Stock</td>
+            </tr>
+        }
+    </tbody>
+</table>

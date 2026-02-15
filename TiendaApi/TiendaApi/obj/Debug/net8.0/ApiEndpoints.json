@@ -1,0 +1,116 @@
+[
+  {
+    "ContainingType": "TiendaApi.Controllers.ComprasController",
+    "Method": "Comprar",
+    "RelativePath": "api/Compras",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "TiendaApi.Dtos.CompraRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TiendaApi.Controllers.ProductosController",
+    "Method": "Get",
+    "RelativePath": "api/Productos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TiendaApi.Controllers.ProductosController",
+    "Method": "PostProducto",
+    "RelativePath": "api/Productos",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "TiendaApi.Models.ProductoCreateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TiendaApi.Controllers.ProductosController",
+    "Method": "GetById",
+    "RelativePath": "api/Productos/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TiendaApi.Controllers.ProductosController",
+    "Method": "GetActivos",
+    "RelativePath": "api/Productos/activos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TiendaApi.Controllers.ReportesController",
+    "Method": "TopProductos",
+    "RelativePath": "api/Reportes/top-productos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TiendaApi.Controllers.ReportesController",
+    "Method": "VentasHoy",
+    "RelativePath": "api/Reportes/ventas-hoy",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TiendaApi.Controllers.VentasController",
+    "Method": "Get",
+    "RelativePath": "api/Ventas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TiendaApi.Controllers.VentasController",
+    "Method": "Detalle",
+    "RelativePath": "api/Ventas/{id}/detalle",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

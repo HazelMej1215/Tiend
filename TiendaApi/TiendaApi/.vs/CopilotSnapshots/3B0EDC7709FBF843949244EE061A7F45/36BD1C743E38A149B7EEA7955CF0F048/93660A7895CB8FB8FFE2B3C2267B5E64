@@ -1,0 +1,32 @@
+﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using TiendaApi.Models;
+
+namespace TiendaApi.Controllers;
+
+[ApiController]
+[Route("api/[controller]")]
+public class ProductosController : ControllerBase
+{
+    private readonly TiendaDbContext _db;
+    public ProductosController(TiendaDbContext db) => _db = db;
+
+    [HttpGet]
+    public async Task<IActionResult> Get()
+    {
+        var data = await _db.productos
+            .Select(p => new
+            {
+                p.id_producto,
+                p.nombre,
+                p.precio,
+                p.stock,
+                p.sku,
+                p.id_categoria,
+                p.id_estado
+            })
+            .ToListAsync();
+
+        return Ok(data);
+    }
+}
